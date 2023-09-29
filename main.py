@@ -13,8 +13,8 @@ try:
    data_ingestion.main()
    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<")
 except Exception as e:
-        logger.exception(e)
-        raise e
+    logger.exception(e)
+    raise e
 
 
 STAGE_NAME = "Data validation stage"

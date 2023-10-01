@@ -26,7 +26,7 @@ def main():
             # Organize user input into a NumPy array
             data = np.array([fixed_acidity, volatile_acidity, citric_acid,
                              residual_sugar,chlorides,free_sulfur_dioxide,total_sulfur_dioxide,
-                             density,pH,sulphates,alcohol])  # Add more features as needed
+                             density,pH,sulphates,alcohol]) 
 
             # Make a prediction using your PredictionPipeline
             obj = PredictionPipeline()
